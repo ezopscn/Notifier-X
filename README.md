@@ -19,6 +19,13 @@
 
 <hr>
 
+### 📑 项目说明
+
+Notifier X 是一个使用 Golang 开发的消息发送管理平台，适用于国内小团队作为轻度的消息推送通知组件使用，例如：
+* 验证码发送
+* 系统消息通知
+* 运维监控告警等
+
 ### 📩 消息支持
 
 | 平台    | 是否支持 | 补充说明 |
@@ -30,62 +37,6 @@
 | 阿里云短信 |  ❌   | 开发中  |
 | 腾讯云短信 |  ❌   | 开发中  |
 
-### 🤔 技术栈
+### 📖 开发支持
 
-- [x] Go：Google 开发的开源编程语言，诞生于 2006 年 1 月 2 日 15 点 4 分 5 秒 [🌏](https://github.com/golang/go)
-- [x] Cobra：CLI 开发参数处理工具 [🌏](https://github.com/spf13/cobra)
-- [x] Embed：go 1.16 新增的文件嵌入属性, 轻松将静态文件打包到编译后的二进制应用中
-- [x] Gin：用 Go 编写的高性能 HTTP Web 框架 [🌏](https://github.com/gin-gonic/gin)
-- [x] Viper：配置管理工具, 支持多种配置文件类型 [🌏](https://github.com/spf13/viper)
-- [x] Zap：提供快速、结构化、分级的日志记录 [🌏](https://pkg.go.dev/go.uber.org/zap)
-- [x] Lumberjack：日志滚动切割工具 [🌏](https://github.com/natefinch/lumberjack)
-- [x] Gorm：数据库 ORM 管理框架, 可自行扩展多种数据库类型 [🌏](https://gorm.io/gorm)
-- [x] Carbon：简单、语义化且对开发人员友好的 datetime 包 [🌏](https://github.com/golang-module/carbon)
-- [x] Redis：Redis 客户端 [🌏](https://github.com/redis/go-redis)
-- [x] Sonic：字节开源的高性能 JSON 库 [🌏](https://github.com/bytedance/sonic)
-- [x] Multitemplate：Gin 多模板继承库 [🌏](https://github.com/gin-contrib/multitemplate)
-
-<br>
-
-### ⚡ 开发依赖
-
-```bash
-# 命令行工具
-go get -u github.com/spf13/cobra
-
-# Golang web 开发框架
-go get -u github.com/gin-gonic/gin
-
-# YAML 配置文件解析成结构体
-go get -u github.com/spf13/viper
-
-# 日志
-go get -u go.uber.org/zap
-
-# 日志切割
-go get -u github.com/natefinch/lumberjack
-
-# 数据库 GORM
-go get -u gorm.io/gorm
-
-# MySQL 连接驱动
-go get -u gorm.io/driver/mysql
-
-# 日期时间
-go get -u github.com/golang-module/carbon/v2
-
-# Redis 客户端
-go get -u github.com/redis/go-redis/v9
-
-# Sonic Json 库
-go get -u github.com/bytedance/sonic
-
-# gin 多模板继承
-go get -u github.com/gin-contrib/multitemplate
-
-# JSON 快速解析
-go get -u github.com/tidwall/gjson
-
-# 异步并发任务
-go get -u golang.org/x/sync/semaphore
-```
+想了解更多开发细节，可以查看开发手册：[Notifier X 开发手册](./README-DEVELOP.md)
