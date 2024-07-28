@@ -1,7 +1,7 @@
 package route
 
 import (
-	v1 "NotifierX/api/v1"
+	"NotifierX/api/v1"
 	"github.com/gin-gonic/gin"
 )
 

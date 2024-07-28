@@ -1,5 +1,5 @@
 <!--suppress HtmlDeprecatedAttribute -->
-<h1 align="center">🥳 Notifier X 开发手册</h1>
+<h1 align="center">🥳 Notifier X 后端开发手册</h1>
 <h3 align="center">一个适合小规模团队的全能型消息管理平台</h3>
 
 <p align="center">
