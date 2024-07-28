@@ -45,4 +45,4 @@ Notifier X 是一个使用 Golang 开发的消息发送管理平台，适用于�
 ### 📖 开发支持
 
 想了解更多开发细节，可以查看开发手册：
-* [Notifier X 后端开发手册](./README-DEV-BACKEND.md)
+* [Notifier X 后端开发手册](server/README.md)
